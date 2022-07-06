@@ -1,0 +1,21 @@
+.group{
+    margin-bottom: 10px;
+}
+
+input, select{
+    margin-right: 10px;
+    border: 0;
+    border-radius: 6px;
+    padding-left: 10px;
+    color: white;
+    background: linear-gradient(rgb(33, 33, 36), rgb(119, 119, 116));
+    box-shadow: 1px 1px 5px 1px rgb(213, 205, 205);
+}
+
+input{
+    width: 116px;
+}
+
+option{
+    background: rgb(83, 77, 77);
+}

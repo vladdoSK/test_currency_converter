@@ -1,0 +1,15 @@
+<app-header [usd]="usd" [eur]="eur"></app-header>
+
+<div class="group">
+    <input #input class="input" value={{input_amount_1}} (input)="onChangeInput_1($event)"/>
+    <select class="select" (change)="onChangeSelect_1($event)">
+       <option *ngFor="let item_currency of map_rate">{{item_currency}}</option>
+    </select>
+</div>
+
+<div class="group">
+    <input #input class="input" value={{input_amount_2}} (input)="onChangeInput_2($event)"/>
+    <select class="select" (change)="onChangeSelect_2($event)">
+       <option *ngFor="let item_currency of map_rate">{{item_currency}}</option>
+    </select>
+</div>
